@@ -28,9 +28,9 @@ module.exports = defineConfig({
 
   /* Start the local static server before running tests */
   webServer: {
-    command: 'npx serve public -l 3000',
+    command: 'npm start',
     url: 'http://localhost:3000',
     reuseExistingServer: !process.env.CI,
-    timeout: 10000,
+    timeout: 60000,
   },
 });

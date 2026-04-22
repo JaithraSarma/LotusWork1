@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Static website with Playwright tests and CI/CD pipeline",
   "scripts": {
-    "start": "npx serve public -l 3000",
+    "start": "serve public -l 3000",
     "test": "npx playwright test",
     "test:headed": "npx playwright test --headed",
     "test:debug": "npx playwright test --debug"
