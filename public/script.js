@@ -89,7 +89,7 @@
     actionButton.textContent = '✓ Pipeline Complete';
     actionButton.classList.remove('running');
     actionButton.classList.add('success');
-    statusText.textContent = '✅ All stages passed. Deployment successful!';
+    statusText.textContent = '❌ Deployment Failed!';
     statusText.classList.remove('running');
     statusText.classList.add('success');
 
